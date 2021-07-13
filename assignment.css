@@ -1,0 +1,35 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body{
+	flex-wrap: wrap;
+	background-image: url(header.jpg);
+	background-size: cover;
+	background-position: center;
+  	height: 100%;
+}
+
+.write{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.btn-warning{
+	margin-left: 600px;
+	margin-top: 200px;
+	font-weight: bold;
+	font-weight: 700;
+	padding:10px 20px;
+
+}
+
+.btn-warning:hover{
+	background-color: green;
+	cursor: pointer;
+
+}
